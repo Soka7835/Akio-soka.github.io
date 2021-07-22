@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 
 <html lang="ja">
+    <head>
+        <meta charset="uft-8">
+        <link rel="stylesheet" href="./base.css">
+        <title>プログラミング　期末課題</title>
+    </head>
 
-<head>
-    <meta charset="utf-8"/>
-    <title>期末課題　プロフィール</title>
-</head>
+    <body>
+        <header>
+            <h1>プログラミング　期末課題</h1>
+            <nav id="menu">
+                <ul>
+                     <li> <a href="../Kimatu 課題/index.html">プロフィール</a></li>
+               
+                </ul>
+            </nav>
+        </header>
 
-<body>
-    <h1>期末課題　プロフィール</h1>
-    <div>
-        <h2>2017219</h2>
-        <h3>創価大学　文学部　2年生</h3>
-        <h4>現在ロシア語について学びながら、歴史や哲学についても大学で学んでいる。その過程の中でプログラミングの授業を取った。</h4>
-    </div>
+        <div>
+            <h2>プログラミングの授業を履修した理由</h2>
+            <h4>・プログラミングを学んで自分でサイトを作れるようになりたかった</h4>
+<h5>・大学で文学部以外の勉強がしてみたくて、履修した</h5>
+        </div>
 
-<a href="../Kimatu Kadai/index.html">戻る</a>
-</body>
-</html>
+        <div>
+            <h3>プログラミングの授業は面白かった？</h3>
+            <button type="button" onclick="Kadai(0)">面白かった！</button>
+            <button type="button" onclick="Kadai(1)">そこそこ！</button>
+            <button type="button" onclick="Kadai(2)">難しかった！</button>
+        </div>
+
+        <script src="Kadai.js"></script>
+
+    </body>
