@@ -1,12 +1,12 @@
 @charset "uft-8";
-#menu > ul{
+h1{
     /* 行間記号を指定するプロパティ */
     list-style: none;
     /* パディング(コンテンツとボーダーの間のスペース)のサイズを指定するプロパティ */
     padding-left: 0px;
 }
 
-#menu>ul>li{
+h1{
     /*ブロック要素をインライン要素に変更する  */
     display: inline;
     /* マージン(隣接する要素同士のスペース)のサイズを指定するプロパティ */
@@ -21,6 +21,3 @@
     background: linear-gradient(#6e3e3e,#888);
     }
 
-h1{
-    background-color: blue;
-}
